@@ -1,0 +1,387 @@
+@font-face {
+    font-family: sanju;
+    src: url(Azonix.otf);
+}
+@font-face {
+    font-family: american captain;
+    src: url(American\ Captain.ttf);
+}
+@font-face {
+    font-family: THE CAFE;
+    src: url(This\ Cafe.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background:#0a0a0a;
+    background-size: cover;
+    height:200% ;
+    position: relative;
+    font-family: sans-serif;
+
+}
+header {
+   
+    width: 100%;
+    padding: 20px 120px;
+    background: #1f1e1ebd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    right:150px; 
+    
+    
+} 
+.logo{
+    font-size: 25px;
+    font-family: sanju;
+    color: tomato;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    left: 200px;
+}
+nav a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600px;
+    text-decoration: none;
+    font-family: sanju;
+    margin-left: 35px;
+    transition: .3s;
+ 
+}  
+
+nav a:hover,
+nav a.active{
+    color: tomato;
+}
+
+section{
+    background-color: #0a0a0a;
+    min-height: 100vh;
+    display: flex;
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+    font-family:sanju;
+}
+.info h1{
+    font-size: 65px;
+    color: #fff;
+    font-family: sanju;
+    line-height: 75px;
+    
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.info span{
+    color: tomato;
+    transition: .3s ease;
+}
+.info span:hover{
+    color: yellow;
+}
+.image{
+    width: 30%;
+    height: 70%;
+    position: absolute;
+    right: 100%;
+    bottom:10%;
+    left: 70%;
+    top: 30%;
+}
+.image img{
+    position: absolute;
+    height: 150%;
+    left: 10%;
+    transform: translate(-55%);
+    bottom: 10%;
+    transition: left 2s ease;
+}
+.image:hover .boy {
+    left:33%
+}
+.icons a{
+    font-size: 40px;
+    letter-spacing: 30px;
+    color: #fff;
+}
+.icons i{
+    position: relative;
+    top: 60%;
+    margin-left: -5px;
+    transition: .4s ease;
+    
+}
+.icons i:hover{
+    color: tomato;
+}
+.srevice{
+    color: #fff;
+    font-family: cursive;
+    margin-left: 6.9%;
+   
+}
+.srevice h1{
+    color: tomato;
+    font-family: sanju;
+    line-height: 65px;
+    font-size: 65px;
+    line-height: 80px;
+}
+
+.srevice h3{
+    color: #8083c9;
+}
+.srevice span{
+    color:#fff ;
+}
+.container1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    top: 190px;
+    left: -360px;
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+.container1 h3{
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.table{
+    border: 1px red;
+}
+.experience h1{
+    color: aliceblue;
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+    font-family: sanju;
+    font-size: 65px;
+    line-height:80px;
+}
+.experience span{
+    color: tomato;
+}
+.experience h2{
+    font-size: 50px;
+    color: tomato;
+    font-family: sanju; 
+    position: relative;
+    left:200px ;
+    bottom:300px;
+}
+
+.experience h3{
+    font-size: 50px;
+    color: tomato;
+    font-family: sanju; 
+    position: relative;
+    left: 800px ;
+    
+    bottom: 350px;
+}
+u {
+    width: 500px;
+}
+.experience .bxl-html5{
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+    
+}
+.experience .bxl-css3{
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+
+    bottom: 300px;
+    left: 250px;
+    
+    
+}
+.experience .bxl-javascript{
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    bottom: 300px;
+    left: 350px;
+}
+.experience .bx-mobile-alt{
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    bottom: 160px;
+    left: -15px;
+}
+
+.caption h1{
+    color: #fff;
+    position: relative;
+    left:-325px;
+    bottom: -120px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.caption h2{
+    color: #fff;
+    position: relative;
+    left: -160px;
+    bottom: -96px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.caption h3{
+    color: #fff;
+    position: relative;
+    left: -50px;
+    bottom: -73px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.caption h4{
+    color: #fff;
+    position: relative;
+    left: -330px;
+    bottom: -180px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.contact h1{
+    color: tomato;
+    font-family: sanju;
+    line-height: 65px;
+    font-size: 65px;
+    line-height: 80px;
+    position: relative;
+    top: 400px;
+    right: 500px;
+}
+
+.contact span{
+    color: #fff;
+}
+
+
+.email {
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    background-color:tomato;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 turquoise;
+    transition: ease-out .5s ;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.email:hover{
+    box-shadow: inset 300px 0 0 0 turquoise ;
+    cursor: pointer;
+    color: #0a0a0a;
+}
+
+.experience .bx-desktop {
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    bottom: 163px;
+    left: 90px;
+}
+.caption h5 {
+    color: #fff;
+    position: relative;
+    right: 180px;
+    top: 135px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.experience .bxs-video {
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    bottom: 163px;
+    left: 195px;
+}
+.caption h6 {
+    color: #fff;
+    position: relative;
+    right: 10px;
+    top: 80px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.client {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 8px;
+    position: relative;
+    top: 70px;
+    font-family: sanju;
+    left: 250px;
+}
+
+
+.line1 {
+    position: relative;
+    bottom: 713px;
+    left:620px;
+}
+.line1 img {
+    width: 690px;
+    height: 400px;
+}   
+
+.project {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 8px;
+    position: relative;
+    top: 170px;
+    font-family: sanju;
+    left: 5px;
+}
+
+.line2 {
+    position: relative;
+    bottom: 1000px;
+    left:625px;
+}
+
+.line2 img {
+    width: 690px;
+    height: 400px;
+}   
+
+
+    
+
+
+
